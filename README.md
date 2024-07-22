@@ -10,6 +10,8 @@ Kurulum videosu :
 
 5 GB SSD
 
+Ubuntu 22.04
+
 Ben hetzner'in CX22 3.29€'luk sunucusunu aldım fazlasıyla yeterli olur.
 
 İlk başta bir tane keplr cüzdanı kuralım veya mevcutta varsa onu da kullanabilirsiniz cüzdanın 12 kelimelik tohumlarını bir kenarda bekletin kullanıcaz.
