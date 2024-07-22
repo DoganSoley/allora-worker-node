@@ -52,7 +52,7 @@ sudo usermod -aG docker $USER
 sudo reboot
 ```
 
-Çalıştırdıktan sonra bizden keplr cüzdan 12 kelimelik tohumları isteyecek onları girelim.
+Yükleme bittikten sonra bizden keplr cüzdan 12 kelimelik tohumları isteyecek onları girelim.
 Daha sonra size "HEAD ID" verecek ve yazmanızı isteyecek onu yazalım.
 Tekrar keplr cüzdan 12 kelimelik tohumları isteyecek tekrar girelim.
 "Topic ID" isteyecek 1 yazın.
