@@ -58,7 +58,8 @@ Daha sonra size "HEAD ID" verecek ve yazmanızı isteyecek onu yazalım.
 
 Tekrar keplr cüzdan 12 kelimelik tohumları isteyecek tekrar girelim.
 
-"Topic ID" isteyecek 1 yazın.
+"Topic ID" isteyecek 1 yazın ve yüklenip çalışmasını bekleyin.
+
 
 V2 Yükseltme ;
 ```
