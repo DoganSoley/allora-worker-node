@@ -55,6 +55,8 @@ sudo reboot
 
 Yükleme bittikten sonra bizden keplr cüzdan 12 kelimelik tohumları isteyecek onları girelim.
 
+Bir şifre belirlemenizi isteyecek şifrenizi yazıp enterlayın tekrar onaylamanızı isteyecek tekrar yazıp enterlayın.
+
 Daha sonra size "HEAD ID" verecek ve yazmanızı isteyecek onu yazalım.
 
 Tekrar keplr cüzdan 12 kelimelik tohumları isteyecek tekrar girelim.
