@@ -65,11 +65,15 @@ Tekrar keplr cüzdan 12 kelimelik tohumları isteyecek tekrar girelim.
 
 "Topic ID" isteyecek 1 yazın ve yüklenip çalışmasını bekleyin.
 
+Son olarak v2 yükseltmesi yapalım.
 
 V2 Yükseltme ;
 ```
 wget -O testnetmigrator.sh https://raw.githubusercontent.com/casual1st/alloraworkersetup/main/testnetmigrator.sh && chmod +x testnetmigrator.sh && ./testnetmigrator.sh
 ```
+Evet kurulum bu kadar [Link](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6ImM1OTdmYjNlLWQ0ZGEtNGFmZi04MGJhLTVlOTAxYmZlZTBhNCJ9)'e gidip puanınızı kontrol edebilirsiniz.Eğer yeni kurduysanız 0 yazması normal haftalık olarak güncelleniyor.
+
+Node doğru şekilde çalışıyor mu diye kontrol edelim.
 
 Node durumu kontrol :
 ```
