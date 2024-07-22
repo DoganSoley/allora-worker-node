@@ -53,8 +53,11 @@ sudo reboot
 ```
 
 Yükleme bittikten sonra bizden keplr cüzdan 12 kelimelik tohumları isteyecek onları girelim.
+
 Daha sonra size "HEAD ID" verecek ve yazmanızı isteyecek onu yazalım.
+
 Tekrar keplr cüzdan 12 kelimelik tohumları isteyecek tekrar girelim.
+
 "Topic ID" isteyecek 1 yazın.
 
 V2 Yükseltme ;
