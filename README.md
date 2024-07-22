@@ -15,10 +15,13 @@ Ben hetzner'in CX22 3.29€'luk sunucusunu aldım fazlasıyla yeterli olur.
 İlk başta bir tane keplr cüzdanı kuralım veya mevcutta varsa onu da kullanabilirsiniz cüzdanın 12 kelimelik tohumlarını bir kenarda bekletin kullanıcaz.
 
 Daha sonra bu [Link](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6ImM1OTdmYjNlLWQ0ZGEtNGFmZi04MGJhLTVlOTAxYmZlZTBhNCJ9)'e tıklayıp şurdan cüzdan adresimizi kopyalayalım.
+![image](https://github.com/user-attachments/assets/038bf5f2-f5b2-4154-ac4a-560c339dec57)
 
 Daha sonra bu [Link](https://faucet.testnet-1.testnet.allora.network/)'e tıklayıp cüzdan adresimizi yapıştırıp faucet alalım.
 
 İsterseniz keplr cüzdanınıza bu [Link](https://explorer.testnet-1.testnet.allora.network/wallet/suggest)'e giderek allora test ağını cüzdana ekleyebilirsiniz.
+
+Şimdi sunucuda yapacağımız işlemlere geçelim.
 
 Sunucuya bağlandıktan sonra sırasıyla ;
 
