@@ -41,9 +41,9 @@ wget https://raw.githubusercontent.com/dxzenith/allora-worker-node/main/allora.s
 ```
 Yaklaşık 5-10dk kadar sürebilir yüklenmesi.
 
-Eğer "docker version" hatası alırsanız bu kodları yazıp tekrar çalıştırma kodunu girin eğer hata vermezse bu adımı atlayın.
+>Eğer "docker version" hatası alırsanız bu kodları yazıp tekrar çalıştırma kodunu girin eğer hata vermezse bu adımı atlayın.
 
-Docker version hata düzeltme 
+>Docker version hata düzeltme 
 
 ```
 sudo usermod -aG docker $USER
