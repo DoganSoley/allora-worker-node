@@ -92,5 +92,6 @@ Node durumu kontrol :
 }'
 ```
 
-
+Bu şekilde bir çıktı alıyorsanız sorunsuz çalışıyor demektir.
+![image](https://github.com/user-attachments/assets/82bd9d10-951a-4be4-89f4-8a3e21584d28)
 
