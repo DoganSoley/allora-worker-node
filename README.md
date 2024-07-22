@@ -71,7 +71,6 @@ V2 Yükseltme ;
 ```
 wget -O testnetmigrator.sh https://raw.githubusercontent.com/casual1st/alloraworkersetup/main/testnetmigrator.sh && chmod +x testnetmigrator.sh && ./testnetmigrator.sh
 ```
-Evet kurulum bu kadar [Link](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6ImM1OTdmYjNlLWQ0ZGEtNGFmZi04MGJhLTVlOTAxYmZlZTBhNCJ9)'e gidip puanınızı kontrol edebilirsiniz.Eğer yeni kurduysanız 0 yazması normal haftalık olarak güncelleniyor.
 
 Node doğru şekilde çalışıyor mu diye kontrol edelim.
 
@@ -105,3 +104,4 @@ Bu şekilde bir çıktı alıyorsanız sorunsuz çalışıyor demektir.
 
 ![image](https://github.com/user-attachments/assets/82bd9d10-951a-4be4-89f4-8a3e21584d28)
 
+Evet kurulum bu kadar bu [Link](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6ImM1OTdmYjNlLWQ0ZGEtNGFmZi04MGJhLTVlOTAxYmZlZTBhNCJ9)'e gidip keplr cüzdanınızı bağlayarak puanınızı kontrol edebilirsiniz.Eğer yeni kurduysanız 0 yazması normal haftalık olarak güncelleniyor.
