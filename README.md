@@ -49,7 +49,7 @@ Yaklaşık 5-10dk kadar sürebilir yüklenmesi.
 Docker version hata düzeltme 
 
 ```
->sudo usermod -aG docker $USER
+sudo usermod -aG docker $USER
 ```
 ```
 sudo reboot
