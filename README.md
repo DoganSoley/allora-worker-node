@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/f97d6142-98c4-422c-8e39-845f841d25da)
 
-Kurulum videosu : 
+Kurulum videosu : [Link](https://youtu.be/SDNW5IrkLuc)
 
 # Sunucu Gereksinimleri
 
