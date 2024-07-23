@@ -14,6 +14,8 @@ Ubuntu 22.04
 
 Ben hetzner'in CX22 3.29€'luk sunucusunu aldım fazlasıyla yeterli olur.
 
+Yeni kayıt olanlara digitalocean 2 aylık 200$ free hesap veriyor daha önce kullanmadıysanız bu [Link](https://try.digitalocean.com/freetrialoffer/)'e gidip kayıt olarak ücretsiz sunucu alabilirsiniz.
+
 İlk başta bir tane keplr cüzdanı kuralım veya mevcutta varsa onu da kullanabilirsiniz cüzdanın 12 kelimelik tohumlarını bir kenarda bekletin kullanıcaz.
 
 Daha sonra bu [Link](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6ImM1OTdmYjNlLWQ0ZGEtNGFmZi04MGJhLTVlOTAxYmZlZTBhNCJ9)'e tıklayıp keplr cüzdanınızı bağladıktan sonra şurdan allora adresimizi kopyalayalım.
