@@ -104,6 +104,7 @@ Node durumu kontrol :
 
 Bu şekilde bir çıktı alıyorsanız sorunsuz çalışıyor demektir.
 
-![image](https://github.com/user-attachments/assets/82bd9d10-951a-4be4-89f4-8a3e21584d28)
+![image](https://github.com/user-attachments/assets/61eaf05e-2d4e-4052-bace-2277dd390482)
+
 
 Evet kurulum bu kadar bu [Link](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6ImM1OTdmYjNlLWQ0ZGEtNGFmZi04MGJhLTVlOTAxYmZlZTBhNCJ9)'e gidip keplr cüzdanınızı bağlayarak puanınızı kontrol edebilirsiniz.Eğer yeni kurduysanız 0 yazması normal haftalık olarak güncelleniyor.
