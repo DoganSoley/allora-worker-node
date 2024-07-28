@@ -99,7 +99,7 @@ docker logs -f containerid
 ```
 containerid yazan yeri kendi container_id'niz ile değiştirin ve enterlayın.(ilk kurduğumuz ile aynı değil bu yeni containerid)
 
-Loglar bu şekildeyse bir problem yoktur.
+Loglar bu şekildeyse bir problem yoktur.(bu şekilde değilse sabit bekliyorsa da 20-30dk sonra tekrar kontrol edin)
 
 ![allora 3](https://github.com/user-attachments/assets/d68f4288-7478-4be8-b5ec-e5fe9dff75f6)
 
