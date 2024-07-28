@@ -2,6 +2,8 @@
 
 Kurulum videosu : [Link](https://youtu.be/SDNW5IrkLuc)
 
+# Kurulum videoya göre biraz değişti aşağıya buradan sonrası videodan farklı diye fotoğraflı anlatarak devam edicem.
+
 # Sunucu Gereksinimleri
 
 4 GB RAM
