@@ -67,16 +67,38 @@ Daha sonra size "HEAD ID" verecek ve yazmanızı isteyecek onu yazalım.
 
 Tekrar keplr cüzdan 12 kelimelik tohumları isteyecek tekrar girelim.
 
-"Topic ID" isteyecek 1 yazın ve yüklenip çalışmasını bekleyin.
+# Buradan sonrası videoda farklı burdan devam edin.
 
-Son olarak v2 yükseltmesi yapalım.
+Böyle bir ekran verip container_id girmenizi isteyecek kırmızıyla işaretlediğim kendi node-worker container_id'nizi kopyalayıp yapıştırıp enterlayın.
+![allora yeni](https://github.com/user-attachments/assets/1d67314a-beb1-4098-bd1d-fe5a06f8b501)
+
+Daha sonra böyle bir ekran gelecek CTRL + C yapın ve alttaki V2 Yükseltme kodunu girin.
+![allora2](https://github.com/user-attachments/assets/1011c3aa-ecf0-43d0-9568-feeb7fbf76ef)
 
 V2 Yükseltme ;
 ```
 wget -O testnetmigrator.sh https://raw.githubusercontent.com/casual1st/alloraworkersetup/main/testnetmigrator.sh && chmod +x testnetmigrator.sh && ./testnetmigrator.sh
 ```
+Burda faucet almanız gerektiğini hatırlatıyor aldığımız için herhangi bir tuşa basıp devam ediyoruz.(Faucet aldığınızdan emin olun)
+![testnet2](https://github.com/user-attachments/assets/1e56aeb2-4b1c-4a32-9736-fc9e972e5d70)
 
-Node doğru şekilde çalışıyor mu diye kontrol edelim.
+Yükleme işlemi bittikten sonra ;
+
+```
+docker ps -a
+```
+Yazıyoruz ve çıkan ekranda yine kırmızıyla işaretlediğim node-worker ile biten container_id kopyalayıp
+![Ekran Alıntısı](https://github.com/user-attachments/assets/584540ad-d2e2-4e98-b119-e6562cf250de)
+
+```
+docker logs -f containerid
+```
+containerid yazan yeri kendi container_id'niz ile değiştirin ve enterlayın.(ilk kurduğumuz ile aynı değil bu yeni containerid)
+
+Loglar bu şekildeyse bir problem yoktur.
+![allora 3](https://github.com/user-attachments/assets/d68f4288-7478-4be8-b5ec-e5fe9dff75f6)
+
+Son bir kontrol daha yapalım.(Sadece buna baksanız da olur fakat bakmışken ikisine de bakın garanti olsun :) )
 
 Node durumu kontrol :
 ```
