@@ -131,7 +131,7 @@ Node durumu kontrol :
 }'
 ```
 
-Bu şekilde bir çıktı alıyorsanız sorunsuz çalışıyor demektir.
+Code200 ile başlayan bu şekilde bir çıktı alıyorsanız sorunsuz çalışıyor demektir.
 
 ![image](https://github.com/user-attachments/assets/61eaf05e-2d4e-4052-bace-2277dd390482)
 
