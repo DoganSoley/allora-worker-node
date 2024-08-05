@@ -136,4 +136,4 @@ Code200 ile başlayan bu şekilde bir çıktı alıyorsanız sorunsuz çalışı
 ![image](https://github.com/user-attachments/assets/61eaf05e-2d4e-4052-bace-2277dd390482)
 
 
-Evet kurulum bu kadar bu [Link](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6ImM1OTdmYjNlLWQ0ZGEtNGFmZi04MGJhLTVlOTAxYmZlZTBhNCJ9)'e gidip keplr cüzdanınızı bağlayarak puanınızı kontrol edebilirsiniz.Eğer yeni kurduysanız 0 yazması normal haftalık olarak güncelleniyor.
+Evet kurulum bu kadar bu [Link](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6ImM1OTdmYjNlLWQ0ZGEtNGFmZi04MGJhLTVlOTAxYmZlZTBhNCJ9)'e gidip keplr cüzdanınızı bağlayarak puanınızı kontrol edebilirsiniz.Şuan puanlamada problem var 0 yazması normal puanlama düzeldiğinde geçmişe dönük olarak puanlar yansıyacak.
