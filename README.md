@@ -2,6 +2,8 @@
 
 Kurulum videosu : [Link](https://youtu.be/SDNW5IrkLuc)
 
+# Kurulumda şuan hata var bu scriptten kurmayın düzeldiğinde buradan güncelleme geçilecek.
+
 # Kurulum videoya göre biraz değişti aşağıya buradan sonrası videodan farklı diye fotoğraflı anlatarak devam edicem.
 
 # Sunucu Gereksinimleri
