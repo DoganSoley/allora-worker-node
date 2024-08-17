@@ -69,7 +69,7 @@ rm -rf config.json
 nano config.json
 ```
 
-Burda boş bir ekran açılacak bu ekrana aşağıdaki kodu yapıştırın(keplr 12 kelimelik tohum yazan kısma cüzdanınızın tohum kelimesini yazarak düzenleyin "" işaretlerini silmeden)
+Burda boş bir ekran açılacak bu ekrana aşağıdaki kodu yapıştırın düzenlemek için klavyeden yön tuşlarını kullanın.(keplr 12 kelimelik tohum yazan kısma cüzdanınızın tohum kelimesini yazarak düzenleyin "" işaretlerini silmeden)
 ```
 {
     "wallet": {
