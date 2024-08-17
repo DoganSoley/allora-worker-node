@@ -132,7 +132,7 @@ Loglar bu şekilde akıyorsa çalışıyor demektir.(Daha uzun loglarda atıyor 
 ![image](https://github.com/user-attachments/assets/c06d4c59-5fc4-4015-ada4-a187ed29afe0)
 
 
-# Daha önce kurduysanız güncellemek için.
+# Daha önce kurduysanız güncellemek için.(Yukarıdaki kurulumu yaptıysanız burayı yapmayın burası sadece eskiden kuranlar için)
 
 Sunucuya bağlandıktan sonra ;
 
