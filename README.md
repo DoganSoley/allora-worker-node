@@ -128,7 +128,7 @@ Yükleme bittikte sonra logları kontrol etmek için;
 docker logs -f worker
 ```
 
-Loglar bu şekilde akıyorsa çalışıyor demektir.(Arada bir error atabiliyor biraz bekleyin aralarda txHash attığına emin olun)
+Loglar bu şekilde akıyorsa çalışıyor demektir.(Daha uzun loglarda atıyor arada bir error atabiliyor biraz bekleyin aralarda txHash attığına emin olun)
 ![image](https://github.com/user-attachments/assets/c06d4c59-5fc4-4015-ada4-a187ed29afe0)
 
 
