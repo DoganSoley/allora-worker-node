@@ -32,8 +32,6 @@ Daha sonra bu [Link](https://faucet.testnet-1.testnet.allora.network/)'e tıklay
 
 Sunucuya bağlandıktan sonra sırasıyla ;
 
-Güncelleme 
-
 ```
 sudo apt update && sudo apt upgrade -y
 ```
