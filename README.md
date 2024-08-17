@@ -147,6 +147,6 @@ wget https://raw.githubusercontent.com/dxzenith/allora-worker-node/main/allora.s
 
 Tekrar cüzdan tohum kelimelerini isteyecek yapıştırıp devam edin.
 
-yükleme bitip loglar akmaya başladıktan sonra CTRL + C yapın ve yukarıdaki "Config dosyasını düzenleme" kısmından aşağı doğru aynı işlemleri yapın.Loglar yukarıdaki fotoğraftaki gibi akıyorsa çalışıyor demektir.( Umarım :) )
+yükleme bitip loglar akmaya başladıktan sonra CTRL + C yapın ve yukarıdaki "Config dosyasını düzenleme" kısmından aşağı doğru aynı işlemleri yapın.Loglar yukarıdaki fotoğraftaki gibi akıyorsa çalışıyor demektir.
 
 Evet kurulum bu kadar bu [Link](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6ImM1OTdmYjNlLWQ0ZGEtNGFmZi04MGJhLTVlOTAxYmZlZTBhNCJ9)'e gidip keplr cüzdanınızı bağlayarak puanınızı kontrol edebilirsiniz.Şuan puanlamada problem var 0 yazması normal puanlama düzeldiğinde geçmişe dönük olarak puanlar yansıyacak.
