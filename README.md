@@ -2,9 +2,7 @@
 
 Kurulum videosu : [Link](https://youtu.be/SDNW5IrkLuc)
 
-# Kurulumda şuan hata var bu scriptten kurmayın düzeldiğinde buradan güncelleme geçilecek.
-
-# Kurulum videoya göre biraz değişti aşağıya buradan sonrası videodan farklı diye fotoğraflı anlatarak devam edicem.
+# Kurulum güncel (daha önce kurduysanız güncelleme adımlarını aşağıda)
 
 # Sunucu Gereksinimleri
 
@@ -47,95 +45,112 @@ Node çalıştırma
 ```
 wget https://raw.githubusercontent.com/dxzenith/allora-worker-node/main/allora.sh && chmod +x allora.sh && ./allora.sh
 ```
-Yaklaşık 5-10dk kadar sürebilir yüklenmesi.
+y yazıp devam ediyoruz, yaklaşık 5-10dk kadar sürebilir yüklenmesi.
 
-
->Eğer "docker version" hatası alırsanız "Docker version hata düzeltme" kodlarını yazıp tekrar çalıştırma kodunu girin eğer hata vermezse bu adımı atlayın.
-
-Docker version hata düzeltme 
 
 ```
-sudo usermod -aG docker $USER
 ```
-```
-sudo reboot
-```
-
-Yükleme bittikten sonra bizden keplr cüzdan 12 kelimelik tohumları isteyecek onları girelim.
-
-Bir şifre belirlemenizi isteyecek şifrenizi yazıp enterlayın tekrar onaylamanızı isteyecek tekrar yazıp enterlayın.
-
-Daha sonra size "HEAD ID" verecek ve yazmanızı isteyecek onu yazalım.
-
-Tekrar keplr cüzdan 12 kelimelik tohumları isteyecek tekrar girelim.
+Yükleme bittikten sonra bizden keplr cüzdan 12 kelimelik tohumları isteyecek onları girelim ve  tekrar yüklemenin bitmesini bekleyelim.
 
 # Buradan sonrası videoda farklı burdan devam edin.
 
-Böyle bir ekran verip container_id girmenizi isteyecek kırmızıyla işaretlediğim kendi node-worker container_id'nizi kopyalayıp yapıştırıp enterlayın.
+![image](https://github.com/user-attachments/assets/e5973641-3bc6-4765-847e-cd5533a20136)
 
-![allora yeni](https://github.com/user-attachments/assets/1d67314a-beb1-4098-bd1d-fe5a06f8b501)
+Bu ekran geldikten sonra CTRL + C yapıp logları kapatın ve aşağıdaki kodları girin sırasıyla.
 
-Daha sonra böyle bir ekran gelecek CTRL + C yapın ve alttaki V2 Yükseltme kodunu girin.
-
-![allora2](https://github.com/user-attachments/assets/1011c3aa-ecf0-43d0-9568-feeb7fbf76ef)
-
-V2 Yükseltme ;
-```
-wget -O testnetmigrator.sh https://raw.githubusercontent.com/casual1st/alloraworkersetup/main/testnetmigrator.sh && chmod +x testnetmigrator.sh && ./testnetmigrator.sh
-```
-Burda faucet almanız gerektiğini hatırlatıyor aldığımız için herhangi bir tuşa basıp devam ediyoruz.(Faucet aldığınızdan emin olun)
-
-![testnet2](https://github.com/user-attachments/assets/1e56aeb2-4b1c-4a32-9736-fc9e972e5d70)
-
-Yükleme işlemi bittikten sonra ;
+# Config dosyasını düzenleme
 
 ```
-docker ps -a
+cd basic-coin-prediction-node
 ```
-Yazıyoruz ve çıkan ekranda yine kırmızıyla işaretlediğim node-worker ile biten container_id kopyalayıp
-
-![Ekran Alıntısı](https://github.com/user-attachments/assets/584540ad-d2e2-4e98-b119-e6562cf250de)
 
 ```
-docker logs -f containerid
+rm -rf config.json
 ```
-containerid yazan yeri kendi container_id'niz ile değiştirin ve enterlayın.(ilk kurduğumuz ile aynı değil bu yeni containerid)
-
-Loglar bu şekildeyse bir problem yoktur.Loglardan çıkmak için CTRL + C yapabilirsiniz.(bu şekilde değilse sabit bekliyorsa da 20-30dk sonra tekrar kontrol edin)
-
-![allora 3](https://github.com/user-attachments/assets/d68f4288-7478-4be8-b5ec-e5fe9dff75f6)
-
-Son bir kontrol daha yapalım.(Sadece buna baksanız da olur fakat bakmışken ikisine de bakın garanti olsun :) )
-
-Node durumu kontrol :
 ```
-  curl --location 'http://localhost:6000/api/v1/functions/execute' \
---header 'Content-Type: application/json' \
---data '{
-    "function_id": "bafybeigpiwl3o73zvvl6dxdqu7zqcub5mhg65jiky2xqb4rdhfmikswzqm",
-    "method": "allora-inference-function.wasm",
-    "parameters": null,
-    "topic": "1",
-    "config": {
-        "env_vars": [
-            {
-                "name": "BLS_REQUEST_PATH",
-                "value": "/api"
-            },
-            {
-                "name": "ALLORA_ARG_PARAMS",
-                "value": "ETH"
+nano config.json
+```
+
+Burda boş bir ekran açılacak bu ekrana aşağıdaki kodu yapıştırın(keplr 12 kelimelik tohum yazan kısma cüzdanınızın tohum kelimesini yazarak düzenleyin "" işaretlerini silmeden)
+```
+{
+    "wallet": {
+        "addressKeyName": "testkey",
+        "addressRestoreMnemonic": "keplr 12 kelimelik tohum",
+        "alloraHomeDir": "",
+        "gas": "1000000",
+        "gasAdjustment": 1.0,
+        "nodeRpc": "https://sentries-rpc.testnet-1.testnet.allora.network/",
+        "maxRetries": 1,
+        "delay": 1,
+        "submitTx": false
+    },
+    "worker": [
+        {
+            "topicId": 1,
+            "inferenceEntrypointName": "api-worker-reputer",
+            "loopSeconds": 5,
+            "parameters": {
+                "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+                "Token": "ETH"
             }
-        ],
-        "number_of_nodes": -1,
-        "timeout": 2
-    }
-}'
+        },
+        {
+            "topicId": 2,
+            "inferenceEntrypointName": "api-worker-reputer",
+            "loopSeconds": 5,
+            "parameters": {
+                "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+                "Token": "ETH"
+            }
+        },
+        {
+            "topicId": 7,
+            "inferenceEntrypointName": "api-worker-reputer",
+            "loopSeconds": 5,
+            "parameters": {
+                "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+                "Token": "ETH"
+            }
+        }
+    ]
+}
 ```
 
-Code200 ile başlayan bu şekilde bir çıktı alıyorsanız sorunsuz çalışıyor demektir.
+Daha sonra sırasıyla CTRL + X + Y enter yapın ve aşağıdaki kodları yazarak devam edin.
 
-![image](https://github.com/user-attachments/assets/61eaf05e-2d4e-4052-bace-2277dd390482)
+```
+chmod +x init.config
+./init.config
+```
+```
+docker compose up -d --build
+```
 
+Yükleme bittikte sonra logları kontrol etmek için;
+```
+docker logs -f worker
+```
+
+Loglar bu şekilde akıyorsa çalışıyor demektir.(Arada bir error atabiliyor biraz bekleyin aralarda txHash attığına emin olun)
+![image](https://github.com/user-attachments/assets/c06d4c59-5fc4-4015-ada4-a187ed29afe0)
+
+
+# Daha önce kurduysanız güncellemek için.
+
+Sunucuya bağlandıktan sonra ;
+
+```
+rm -rf allora.sh allora-chain/ basic-coin-prediction-node/
+```
+```
+wget https://raw.githubusercontent.com/dxzenith/allora-worker-node/main/allora.sh && chmod +x allora.sh && ./allora.sh
+```
+
+Çıkan sorulara "y" yazarak enterlayın.
+
+Tekrar cüzdan tohum kelimelerini isteyecek yapıştırıp devam edin.
+
+yükleme bittikten sonra yukarıdaki "Config dosyasını düzenleme" kısmından aşağı doğru aynı işlemleri yapın.Loglar yukarıdaki fotoğraftaki gibi akıyorsa çalışıyor demektir.( Umarım :) )
 
 Evet kurulum bu kadar bu [Link](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6ImM1OTdmYjNlLWQ0ZGEtNGFmZi04MGJhLTVlOTAxYmZlZTBhNCJ9)'e gidip keplr cüzdanınızı bağlayarak puanınızı kontrol edebilirsiniz.Şuan puanlamada problem var 0 yazması normal puanlama düzeldiğinde geçmişe dönük olarak puanlar yansıyacak.
