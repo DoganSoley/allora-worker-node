@@ -48,8 +48,6 @@ wget https://raw.githubusercontent.com/dxzenith/allora-worker-node/main/allora.s
 y yazıp devam ediyoruz, yaklaşık 5-10dk kadar sürebilir yüklenmesi.
 
 
-```
-```
 Yükleme bittikten sonra bizden keplr cüzdan 12 kelimelik tohumları isteyecek onları girelim ve  tekrar yüklemenin bitmesini bekleyelim.
 
 # Buradan sonrası videoda farklı burdan devam edin.
