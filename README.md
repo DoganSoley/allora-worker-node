@@ -2,7 +2,7 @@
 
 Kurulum videosu (eski kurulum fakat hiç bilmeyenler için yararlı olur izleyin) : [Link](https://youtu.be/SDNW5IrkLuc)
 
-# Allora Hugging Kurulum
+# Allora Hugging Face Worker Kurulum
 
 # Daha önce kurduysanız sunucuyu sıfırlayıp baştan kurulum yapın.
 
