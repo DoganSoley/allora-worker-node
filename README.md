@@ -44,6 +44,13 @@ docker container prune
 ```
 cd
 ```
+Eğer silmek yerine sunucuyu sıfırladıysanız terminalden tekrar bağlanırken hata verirse aşağıdaki kodu girin(sunucuip yazan yere sunucu ip adresinizi yazın)
+
+```
+ssh-Keygen -R sunucuip
+``` 
+
+Evet kuruluma başlayalım.
 
 Sunucuya bağlandıktan sonra sırasıyla ;
 
