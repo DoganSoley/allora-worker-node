@@ -4,15 +4,6 @@ Kurulum videosu (eski kurulum fakat hiç bilmeyenler için yararlı olur izleyin
 
 # Allora Hugging Face Worker Kurulum
 
-# Daha önce kurduysanız sunucuyu sıfırlayıp baştan kurulum yapın.
-
-Sunucuyu sıfırladıktan sonra terminalden bağlanırken sorun yaşarsanız ;
-
-```
-ssh-Keygen -R sunucuip
-```
-sunucuip yazan yere sunucu ip adresinizi yazıp enterlayın daha sonra sunucuya tekrar bağlanın.
-
 # Sunucu Gereksinimleri
 
 4 GB RAM
@@ -38,6 +29,21 @@ Daha sonra bu [Link](https://faucet.testnet-1.testnet.allora.network/)'e tıklay
 İsterseniz keplr cüzdanınıza bu [Link](https://explorer.testnet-1.testnet.allora.network/wallet/suggest)'e giderek allora test ağını ekleyebilirsiniz.
 
 Şimdi sunucuda yapacağımız işlemlere geçelim.
+
+Daha önce kurduysanız sunucuyu sıfırlayın veya aşağıdaki kodlarla eski kurduğumuzu silin.(Sıfır sunucudan kuracaksanız burayı atlayın)
+
+```
+cd basic-coin-prediction-node
+```
+```
+docker compose down -v
+```
+```
+docker container prune
+```
+```
+cd
+```
 
 Sunucuya bağlandıktan sonra sırasıyla ;
 
