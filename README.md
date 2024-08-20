@@ -41,6 +41,8 @@ Daha sonra bu [Link](https://faucet.testnet-1.testnet.allora.network/)'e tıklay
 
 Sunucuya bağlandıktan sonra sırasıyla ;
 
+Aralarda y/n diye çıkarsa y yazıp enterlayın.
+
 Sunucu güncelleyelim :
 
 ```
